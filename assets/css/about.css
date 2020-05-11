@@ -168,5 +168,9 @@ Utility functions
 }
 
 .comcast-gray {
-  font-color: #4d4d4d
+  color: #4d4d4d;
+}
+
+.snapchat-yellow {
+  color: #FFFC00 !important;
 }
