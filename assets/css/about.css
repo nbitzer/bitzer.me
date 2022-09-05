@@ -64,7 +64,7 @@ ls > li {
 .current-gig {
   background-color: #F5F5F5;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 20px;
   font-weight: 200;
 }
 
@@ -173,4 +173,9 @@ Utility functions
 
 .snapchat-yellow {
   color: #FFFC00 !important;
+}
+
+
+.etsy-orange {
+  color: #F56400
 }

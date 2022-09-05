@@ -92,6 +92,10 @@ h2 {
   color: rgba(255,255,255,.5);
 }
 
+#index_company_color {
+  color: #F56400
+}
+
 /* Affix and center */
 @media (min-width: 768px) {
   /* Pull out the header and footer */

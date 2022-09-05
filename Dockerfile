@@ -12,4 +12,5 @@ ENV PORT 8080
 ENV HOST 0.0.0.0
 EXPOSE 8080
 
+# Pass the 8080 port variable into the config file and start nginx
 CMD sh -c "envsubst '\$PORT' < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
