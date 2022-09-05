@@ -6,3 +6,5 @@ WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
 # Copy static assets over
 COPY . .
+
+EXPOSE 8080
