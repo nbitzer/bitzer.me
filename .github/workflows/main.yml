@@ -1,4 +1,4 @@
-name: GCP Image Push
+name: Personal site build & deploy
 
 on:
   push:
